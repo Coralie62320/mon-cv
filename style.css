@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #94D9EA;
+}
+
+.main-content{
+    min-height: 100vh;
+    width: 60%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.section-left{
+    grid-column: span 2;
+    height: 100%;
+    background-color: #026d9f;
+}
+
+.section-right{
+    grid-column: span 5
+    ;
+    background-color: #ffffff;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+
+/* section-left */
+
+.img-profil {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+
+.section-left h2 {
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.section-left p {
+    color: white;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.section-left ul > li {
+    font-size: 14px;
+    color: white;
+    margin-left: 30px;
+}
+
+
+/* section-right */
+
+.coordonnees {
+    background-color: lightgray;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+
+.nom h1 {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.nom p {
+    padding-left: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+span {
+    color:#026d9f;
+}
+
+.contact {
+    display: flex;
+}
+
+.mail {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.adresse-mail {
+    color: #026d9f;
+}
+
+.icone-telephone {
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+.icone-mail {
+    width: 12x;
+    height: 12px;
+    margin-right: 5px;
+}
+
+.adresse {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.icone-maison {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+}
+
+.etudes, .experiences, ul > li {
+    margin-left: 40px;
+}
+
+.etudes, .experiences, h2 {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+}
+
+.etudes, .experiences, ul > li > h3 {
+    font-size: 14px;
+}
+
+.etudes, .experiences, ul > li > p {
+    font-size: 12px;
+}
+
+.etudes ul > li > h3 {
+    color: #026d9f;
+}
+
+.experiences ul > li > h3 {
+    color: #026d9f;
+}
